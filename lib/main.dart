@@ -55,6 +55,7 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.blueGrey[100],
         appBar: AppBar(title: Text('Dynamic list items',style: TextStyle(color: Colors.white,fontSize: 25),),backgroundColor: Colors.purple,centerTitle: true,),
         body: ListView.builder(
           itemCount: items.length,
